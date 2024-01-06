@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bounding-client {
+  display: flex;
+}
+
+.parent-component,
+.secondary-component {
+  display: none;
+  cursor: pointer;
+}
+
+header {
+  border: 1px solid red;
+  padding: 0.5rem 1rem;
+}
+
+.parent-component {
+  border: 1px solid blue;
+  padding: 0.5rem 1rem;
+}
+
+.secondary-component {
+  border: 1px solid green;
+  padding: 0.5rem 1rem;
+}
+
+header:hover + .parent-component {
+  display: block !important;
+}
+
+.parent-component:hover {
+  display: block;
+}
+
+.secondary-component:hover {
+  display: block;
+}
+
+/* .parent-component:hover + .secondary-component {
+  display: block;
+} */
