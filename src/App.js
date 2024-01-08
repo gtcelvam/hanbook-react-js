@@ -1,5 +1,4 @@
 import BoundingClientRect from "./Notice/BoundingClientRect";
-import HashExample from "./Notice/crypto";
 import D3Component from "./Notice/d3";
 import DangerouslySetInnerHTML from "./Notice/dangerouslySetInnerHTML";
 import NavigatorThings from "./Notice/navigator";
@@ -20,7 +19,7 @@ export default function App() {
       {/* <HashExample /> */}
       {/* <BoundingClientRect /> */}
       {/* <YupComponent /> */}
-      <ReduxPersistComponent/>
+      <ReduxPersistComponent />
       <ToastContainer />
     </div>
   );

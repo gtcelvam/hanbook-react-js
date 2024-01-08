@@ -1,5 +1,3 @@
-import { useEffect } from "react/cjs/react.production.min";
-
 const BoundingClientRect = () => {
   const handleParentMouse = (e) => {
     let parent = document.querySelector(".parent-component");
