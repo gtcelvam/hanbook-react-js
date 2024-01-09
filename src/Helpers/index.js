@@ -10,3 +10,5 @@ export const loadScipt = (src) => {
     document.body.appendChild(script);
   });
 };
+
+export const handleRoute = (navigate, route) => navigate(route);

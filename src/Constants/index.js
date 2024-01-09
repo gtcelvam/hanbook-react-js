@@ -5,88 +5,95 @@ export const RAZOR_PAY_ID = "rzp_test_pe3fekajCKbaa4";
 export const salesData = [
   {
     updated_at__date: "2023-08-12",
-    sales: 1
+    sales: 1,
   },
   {
     updated_at__date: "2023-08-13",
-    sales: 2
+    sales: 2,
   },
   {
     updated_at__date: "2023-08-14",
-    sales: 9
+    sales: 9,
   },
   {
     updated_at__date: "2023-08-16",
-    sales: 7
+    sales: 7,
   },
   {
     updated_at__date: "2023-08-17",
-    sales: 22
+    sales: 22,
   },
   {
     updated_at__date: "2023-08-22",
-    sales: 28
+    sales: 28,
   },
   {
     updated_at__date: "2023-08-23",
-    sales: 6
+    sales: 6,
   },
   {
     updated_at__date: "2023-08-24",
-    sales: 2
+    sales: 2,
   },
   {
     updated_at__date: "2023-08-25",
-    sales: 1
+    sales: 1,
   },
   {
     updated_at__date: "2023-08-26",
-    sales: 3
+    sales: 3,
   },
   {
     updated_at__date: "2023-08-28",
-    sales: 7
+    sales: 7,
   },
   {
     updated_at__date: "2023-08-29",
-    sales: 5
+    sales: 5,
   },
   {
     updated_at__date: "2023-08-30",
-    sales: 6
+    sales: 6,
   },
   {
     updated_at__date: "2023-09-01",
-    sales: 4
+    sales: 4,
   },
   {
     updated_at__date: "2023-09-03",
-    sales: 3
+    sales: 3,
   },
   {
     updated_at__date: "2023-09-04",
-    sales: 2
+    sales: 2,
   },
   {
     updated_at__date: "2023-09-06",
-    sales: 3
+    sales: 3,
   },
   {
     updated_at__date: "2023-09-08",
-    sales: 2
+    sales: 2,
   },
   {
     updated_at__date: "2023-09-11",
-    sales: 6
+    sales: 6,
   },
   {
     updated_at__date: "2023-09-12",
-    sales: 2
-  }
+    sales: 2,
+  },
 ];
 
-
-
-//LOGIN Reducer 
+//LOGIN Reducer
 export const LOGIN = "LOGIN";
 export const LOGOUT = "LOGOUT";
+
+//Routes
+export const ReduxPersistRoute = "/redux-persist";
+export const BoundingClientRectRoute = "/bounding-client";
+export const D3ComponentRoute = "/d3-component";
+export const DangerouslySetInnerHTMLRoute = "/dangerously-set-innerhtml";
+export const NavigatorThingsRoute = "/navigator-things";
+export const YupComponentRoute = "/yup-component";
+export const RazorPayThingsRoute = "/razorpay";
